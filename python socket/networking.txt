@@ -1,0 +1,48 @@
+What is Network?   
+Network is a collection of devices..
+Networks are used for  a numbers of reasons  as given below.
+ 1. Information Sharing.
+ 2. File Sharing
+ 3. Resources Sharing
+ 4. Applications Sharing
+
+A Network can be as small as two computers that directly connected or large as the  internet with millions of devices.
+
+What is router?
+
+Router is a device which makes communication between two or more different  network.
+
+It work in layer 3 that is Network layer.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Wired Routers: 
+ • It is typically box shaped devices that connect directly to computer with wired  connections.
+ • It use Ethernet cables to connect your computer to a router.
+ • Like one end is connect to router and other end is connected to switch and then  computer etc.
+ • It support NAT (Network address translation) technologies also . Which allow Multiple   computer  to use same public IP.
+ 
+Wireless Routers:
+ • It is similar to a wired router, a wireless router connects directly to a modem via a   cable for receiving internet data packets. 
+ • Wireless Router distribute data packets using one or more antennae. 
+ • The router  convert that data packets, which are written in binary code like o's or 1's   in to radio signals which antenna broadcast wirelessly.
+ • A machine with a wireless receiver can then receive these radio signals and 
+convert  then back into binary code etc. same like Wired router   which established  wired local   area (LAN)  &  wireless  router establishes Wire Local Area.
+Core Routers:
+ • A Core router is a wired or wireless router that distributes internet data packets  within a network but does not distribute data packets between multiple networks.
+ 
+Edge Routers:
+ • An Edge router is a wired or wireless router that distributes Internet data packets  between one or more networks, but not distribute data packets with a network.
+Virtual Router:
+• Unlike a Physical wired or wireless router , a virtual router is there it is logical router for   redundancy. Like we have HSRP (Hot Standby router redundancy protocol) and  
+
+VRRP(Virtual router redundancy Protocol ) etc.  In this we will  create logical router in  between two router like if any router go down then other router start working. We will  see this in our course. 
+ 
+Router:
+ • Routers interconnect different networks  or In simple way we can say switch is use to  connect devices with a network where as router is use 
+ • to connect different networks.
+ • It works on Layer 3 (Network Layer)
+ • It choose the best path 
+
+It perform Routing.
