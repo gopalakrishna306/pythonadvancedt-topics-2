@@ -1,0 +1,79 @@
+AABCMI
+
+arthamatic    +,-,*,/,//,%,**
+
+assignment    =,+=,-=,*=,**=,//=,%=,\=
+
+betwise    >>,<<,&,|,^or,
+
+comparasion ==,<=,>=,!=,>,<
+
+identity  is ,isnot
+
+membership   in,notin
+
+locgical and or not 
+ 
+
+
+
+order -predence
+
+
+PEMDAS - Betwise -   cmi if-else 
+
+1) paranthsis   ()
+2) exponentail   **     right to left
+3) multiplication  * 
+4) divison          /
+5) addtion         +
+6) substraction     -
+
+
+order is
+
+
+paranthasis   ()
+
+expoential     **
+
+
+multipiication,division,modulus,floure division         * /   %   //
+
+
+
+
+addtion ,substration     = -
+
+
+betwisew operations
+
+
+comparasion      < > <= >= 
+
+equality       == !=
+
+assignment      =  += -= *= **=  >= <=  
+
+identiti        is is not
+
+member ship       in not in
+
+
+logical        not and or
+
+
+PEMDAS-CAIML
+
+
+(),**,*,/,//,%,+,-, ==,<,>,>=,<=,=,+=,-=,*=,**=,>=,<=,is,isnot,in,notin,and,or,not
+
+
+
+
+
+
+  
+
+
+
