@@ -1,0 +1,13 @@
+def test(str,ch,n,gc):
+    i=0
+    for id,c in enumerate(str):
+        if c==ch:
+            i=i+1
+            if i == n:
+                ll = list(str)
+                ll[id] = gc
+                f_s = "".join(ll)
+                return f_s
+            
+            
+print(test('will-pay bill and i will z','z',1,'b'))
