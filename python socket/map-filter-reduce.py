@@ -70,7 +70,23 @@ print(reduce(reducetesting,l))
 
 
 
+l=[1,2,3,4,5,1.5]
 
+def test(l):
+	x= "yes it was list only" if type(l)==list else              f"it was not list it was {type(l)}"
+	return x
+
+
+k=lambda x : x if type(x)==int  else 0
+print(list(map(k,l)))
+
+print(list(filter(lambda x: x if type(x)==int else 0,l)))
+
+print(test(l))
+print(list(filter(lambda x :  True if type(x)==int   else  0 ,l)))
+
+
+print(list(map(lambda x :  True if type(x)==int   else  0 ,l)))
 
 
 
