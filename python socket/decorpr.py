@@ -208,6 +208,36 @@
 
 
 
+def f3(fn):
+	def inner(x,y,z):
+		print('excuting f3')    # f2 return sir thotapoola was comming here the gopalakrish nadddi g here
+		r=fn(x,y,z)
+		# print(r)
+		return r+' '+z
+	return inner
+
+
+
+
+def f2(fn):
+	def inner(x,y,z):
+		print('excuting f2')				# first the list was comming to here .so r[0]+r[1]====sir thotapoola
+		r=fn(x,y,z)
+		return  r[0]+' '+r[1]
+	return inner
+
+@f3
+@f2
+def t1(x,y,z):
+	return [x,y,z]
+
+
+                                                                                                   excuting orreder is    f2,f3
+print(t1('mrs','thotapoola','gopalakrishna'))
+
+
+
+
 
 
 
