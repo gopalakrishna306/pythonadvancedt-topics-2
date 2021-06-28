@@ -1,0 +1,14 @@
+from  functools import lru_cache    # it  will save last call and itwill help to time waste of again excution with same things 
+import time
+
+@lru_cache(maxsize=5)      # it will store last five calls with parameets
+def test(x):
+	time.sleep(x)
+	return x*x
+
+print(test(5))       # it will take 10 seconds to excute 
+print(test(5))		 #  but it will excute instantly  because with same parameeters same fuction you were calling .
+print(test(20))		 # it will take 10 sec to excute beacuse it was new call with new arguments
+print(test(5))		 # but it will excute instantly  because with same parameeters privious call was there.
+print(test(10))
+print(test(5))
